@@ -1,12 +1,5 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
-# General
+# Geral
 --------------------------------------------------------------*/
 
 body {
@@ -683,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Sections
 --------------------------------------------------------------*/
 
-/* Sections Header
+/* seção header
 --------------------------------*/
 
 .section-header h3 {
@@ -721,60 +714,60 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  color: #fff;
+  color: #cecece;
 }
 
-/* Section with background
+/* seção com plano de fundo branco
 --------------------------------*/
 
 .section-bg {
   background: #f7f7f7;
 }
 
-/* Featured Services Section
+/* introducao seção
 --------------------------------*/
 
-#featured-services {
+#introducao-services {
   background: #000;
 }
 
-#featured-services .box {
+#introducao-services .box {
   padding: 30px 20px;
 }
 
-#featured-services .box-bg {
+#introducao-services .box-bg {
   background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
 }
 
-#featured-services i {
+#introducao-services i {
   color: #18d26e;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
 }
 
-#featured-services h4 {
+#introducao-services h4 {
   font-weight: 400;
   margin: 15px 0;
   font-size: 18px;
 }
 
-#featured-services h4 a {
+#introducao-services h4 a {
   color: #fff;
 }
 
-#featured-services h4 a:hover {
+#introducao-services h4 a:hover {
   color: #18d26e;
 }
 
-#featured-services p {
+#introducao-services p {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;
 }
 
-/* About Us Section
+/* Sobre nos seção
 --------------------------------*/
 
 #about {
@@ -870,7 +863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
-/* Services Section
+/* Serviço Section
 --------------------------------*/
 
 #services {
@@ -916,7 +909,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-/* Call To Action Section
+/* Tamanho do problema
 --------------------------------*/
 
 #call-to-action {
@@ -955,7 +948,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #18d26e;
 }
 
-/* Call To Action Section
+/*Componente celulares
 --------------------------------*/
 
 #skills {
@@ -989,17 +982,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: .9s;
 }
 
-/* Facts Section
+/* curiosidades Section
 --------------------------------*/
 
-#facts {
+#curiosidades {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 60px 0;
   position: relative;
 }
 
-#facts::before {
+#curiosidades::before {
   content: '';
   position: absolute;
   left: 0;
@@ -1010,12 +1003,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
-#facts .container {
+#curiosidades .container {
   position: relative;
   z-index: 10;
 }
 
-#facts .counters span {
+#curiosidades .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -1023,7 +1016,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #18d26e;
 }
 
-#facts .counters p {
+#curiosidades .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
@@ -1031,7 +1024,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
 }
 
-#facts .facts-img {
+#curiosidades .facts-img {
   text-align: center;
   padding-top: 30px;
 }
@@ -1208,31 +1201,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-/* Clients Section
+/* Banner Section
 --------------------------------*/
 
-#clients {
-  padding: 60px 0;
+#Banner {
+  padding: 20px 0;
 }
 
-#clients img {
+#Banner img {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
 }
 
-#clients img:hover {
+#Banner img:hover {
   opacity: 1;
 }
 
-#clients .owl-nav,
-#clients .owl-dots {
+#Banner .owl-nav,
+#Banner .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#clients .owl-dot {
+#Banner .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -1241,7 +1234,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #ddd;
 }
 
-#clients .owl-dot.active {
+#Banner .owl-dot.active {
   background-color: #18d26e;
 }
 
