@@ -74,6 +74,12 @@
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
+  $(document).ready(function(){
+    $('#enviar').click(function(){
+        $('.alert').show()
+    }) 
+  });
+
   // Header scroll class
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
